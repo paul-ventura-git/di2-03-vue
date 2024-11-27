@@ -21,6 +21,7 @@
   import T20methodsArgumentsObjects from './components/T20methodsArgumentsObjects.vue';
   import T21methodsExample from './components/T21methodsExample.vue';
   import T22eventModifiers from './components/T22eventModifiers.vue';
+  import T23eventModifiersKeyUp from './components/T23eventModifiersKeyUp.vue';
 </script>
 <script>
   export default {
@@ -79,6 +80,8 @@
   <T21methodsExample></T21methodsExample>
   <h1 :style="{ backgroundColor: bgColor }">22. Event modifiers </h1>
   <T22eventModifiers></T22eventModifiers>
+  <h1 :style="{ backgroundColor: bgColor }">22. Event modifiers: keyup, keydown </h1>
+  <T23eventModifiersKeyUp></T23eventModifiersKeyUp>
 </template>
 
 <style scoped>
