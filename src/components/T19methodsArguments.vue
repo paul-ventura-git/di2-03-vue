@@ -3,7 +3,7 @@
     <h1>Example: Passing Arguments with Methods</h1>
 
     <div id="example19">
-      <img src="../assets/img/img_moose.jpg" width="770" height="349">
+      <img src="../assets/img/img_moose.jpg" width="233" height="233">
       <p>{{ "Moose count: " + count }}</p>
       <button v-on:click="addMoose(1)">+1</button>
       <button v-on:click="addMoose(5)">+5</button>
