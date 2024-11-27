@@ -24,6 +24,7 @@
   import T23eventModifiersKeyUp from './components/T23eventModifiersKeyUp.vue';
   import T24eventModifiersCombined from './components/T24eventModifiersCombined.vue';
   import T25eventModifiersMouseButton from './components/T25eventModifiersMouseButton.vue';
+  import T26eventModifiersImages from './components/T26eventModifiersImages.vue';
 </script>
 <script>
   export default {
@@ -88,6 +89,8 @@
   <T24eventModifiersCombined></T24eventModifiersCombined>
   <h1 :style="{ backgroundColor: bgColor }">25. Event modifiers: Mouse button </h1>
   <T25eventModifiersMouseButton></T25eventModifiersMouseButton>
+  <h1 :style="{ backgroundColor: bgColor }">25. Event modifiers: Images </h1>
+  <T26eventModifiersImages></T26eventModifiersImages>
 </template>
 
 <style scoped>
