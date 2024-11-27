@@ -26,6 +26,7 @@
   import T25eventModifiersMouseButton from './components/T25eventModifiersMouseButton.vue';
   import T26eventModifiersImages from './components/T26eventModifiersImages.vue';
   import T27forms from './components/T27forms.vue';
+  import T28vmodel from './components/T28vmodel.vue';
 </script>
 <script>
   export default {
@@ -94,6 +95,8 @@
   <T26eventModifiersImages></T26eventModifiersImages>
   <h1 :style="{ backgroundColor: bgColor }">27. "v-model:" Forms </h1>
   <T27forms></T27forms>
+  <h1 :style="{ backgroundColor: bgColor }">28. "v-model:" Checkbox </h1>
+  <T28vmodel></T28vmodel>
 </template>
 
 <style scoped>

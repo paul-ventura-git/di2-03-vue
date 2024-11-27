@@ -48,7 +48,7 @@ export default {
 }
 </script>
 <style lang="css">
-  example27form {
+  #example27form {
     border: dashed black 1px;
     width: 200px;
     padding: 20px;
