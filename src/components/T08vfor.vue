@@ -33,13 +33,9 @@ export default {
 <style lang="css">
   #example08 > div {
     border: solid black 1px;
-    width: 80%;
+    width: 20%;
     padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #example08 > img {
-    width: 70px;
-    margin: 10px;
+
+
   }
 </style>

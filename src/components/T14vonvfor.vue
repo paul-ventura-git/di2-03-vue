@@ -46,7 +46,7 @@ export default {
     width: 55%;
   }
 
-  li:hover {
+  #example14 li:hover {
     cursor: pointer;
     background-color: rgb(224, 224, 224);
   }

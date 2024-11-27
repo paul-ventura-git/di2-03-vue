@@ -36,11 +36,11 @@ export default {
 </script>
 
 <style lang="css">
-    #example04 {
-      border: dashed black 1px;
-      width: 130px;
-      padding-left: 20px;
-      font-weight: bold;
-      background-color: lightgreen;
-    }
+  #example04 {
+    border: dashed black 1px;
+    width: 130px;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: lightgreen;
+  }
 </style>

@@ -74,10 +74,10 @@ export default {
     background-color: lightgray;
     border-radius: 5px;
   }
-  ul {
+  #example29 > ul {
     list-style-type: none;
   }
-  li {
+  #example29 > li {
     border-radius: 5px;
     padding: 5px;
     margin: 2px;

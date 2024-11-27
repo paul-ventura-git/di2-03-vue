@@ -91,10 +91,10 @@ export default {
     cursor: pointer;
     background-color: lightgray;
   }
-  ul {
+  #example30 ul {
     list-style-type: none;
   }
-  li {
+  #example30 li {
     margin: 2px;
     background-color: rgb(211, 254, 211);
   }
