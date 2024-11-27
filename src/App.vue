@@ -23,6 +23,7 @@
   import T22eventModifiers from './components/T22eventModifiers.vue';
   import T23eventModifiersKeyUp from './components/T23eventModifiersKeyUp.vue';
   import T24eventModifiersCombined from './components/T24eventModifiersCombined.vue';
+  import T25eventModifiersMouseButton from './components/T25eventModifiersMouseButton.vue';
 </script>
 <script>
   export default {
@@ -81,10 +82,12 @@
   <T21methodsExample></T21methodsExample>
   <h1 :style="{ backgroundColor: bgColor }">22. Event modifiers </h1>
   <T22eventModifiers></T22eventModifiers>
-  <h1 :style="{ backgroundColor: bgColor }">22. Event modifiers: keyup, keydown </h1>
+  <h1 :style="{ backgroundColor: bgColor }">23. Event modifiers: keyup, keydown </h1>
   <T23eventModifiersKeyUp></T23eventModifiersKeyUp>
-  <h1 :style="{ backgroundColor: bgColor }">23. Event modifiers combined </h1>
+  <h1 :style="{ backgroundColor: bgColor }">24. Event modifiers combined </h1>
   <T24eventModifiersCombined></T24eventModifiersCombined>
+  <h1 :style="{ backgroundColor: bgColor }">25. Event modifiers: Mouse button </h1>
+  <T25eventModifiersMouseButton></T25eventModifiersMouseButton>
 </template>
 
 <style scoped>
