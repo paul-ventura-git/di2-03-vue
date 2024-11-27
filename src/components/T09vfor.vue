@@ -4,9 +4,9 @@
     <p>The 'v-for' directive is used to create images and text based on the 'manyFoods' array in the Vue instance.</p>
     <div id="example09">
       <div>
-        <figure v-for="x in manyFoods">
-          <img v-bind:src="x.url">
-          <figcaption>{{ x.name }}</figcaption>
+        <figure v-for="item in manyFoods">
+          <img :src="item.url">
+          <figcaption>{{ item.name }}</figcaption>
         </figure>
       </div>     
     </div>
@@ -52,8 +52,5 @@ export default {
   figcaption {
     text-align: center;
   }
-  
-  img {
-    
-  }
+
 </style>

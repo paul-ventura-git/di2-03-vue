@@ -5,9 +5,9 @@
     <p>Click on a food name below to see an image of it.</p>
 
     <div id="example14">
-      <img v-bind:src="imgUrl">
+      <img :src="imgUrl">
       <ol>
-        <li v-for="food in manyFoods" v-on:click="imgUrl = food.url">
+        <li v-for="food in manyFoods" @:click="imgUrl = food.url">
           {{ food.name }}
         </li>
       </ol>

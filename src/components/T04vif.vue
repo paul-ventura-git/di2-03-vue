@@ -5,18 +5,18 @@
     <p>Try changing the 'typewritersInStock' value in the Vue instance from 'true' to 'false' and run the code again.</p>
 
     <div id="example04">
-      <p v-if="typewritersInStock">
+      <p v-if="typeWritersInStock">
         in stock
       </p>
       <p v-else>
         not in stock
       </p>
 
-      <p v-if="typewriterCount > 0">
-        in stock
+      <p v-if="typeWriterCount > 0">
+        It's greater than zero.
       </p>
       <p v-else>
-        not in stock
+        It's less than zero or equal to zero.
       </p>
     </div>
   </div>
@@ -28,8 +28,8 @@ export default {
   components : {},
   data() {
     return {
-      typeWritersInStock: true,
-      typewriterCount: 3
+      typeWritersInStock: false,
+      typeWriterCount: 0
     }
   }
 }

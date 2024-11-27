@@ -4,9 +4,9 @@
     components : {},
     data() {
       return {
-        url: "https://picsum.photos/200/100",
-        size: "38px",
-        class: "myClassName"
+        myUrl: "https://picsum.photos/300/200",
+        size: "24px",
+        class: "myClassName2"
     }
    }
   }  
@@ -16,13 +16,16 @@
   <div v-bind:class="class">
     <div v-bind:style="{ fontSize: size }">
       <p>The browser finds the 'src' attribute value from the Vue instance with the use of 'v-bind'.</p>
-      <img v-bind:src="url">
+      <img v-bind:src="myUrl">
     </div>
   </div>
 </template>
 
 <style>
-.myClassName{
-  background-color: red;
-}
+  .myClassName1{
+    background-color: red;
+  }
+  .myClassName2{
+    background-color: green;
+  }
 </style>

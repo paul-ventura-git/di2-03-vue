@@ -4,7 +4,7 @@
 
     <div id="example13">
       <p>Move the mouse pointer over the box below to change the background-color randomly with hsl color code.</p>
-      <div v-on:mousemove=" colorVal = Math.floor(Math.random()*360) " v-bind:style=" {backgroundColor: 'hsl('+colorVal+',60%,60%)'} "></div>
+      <div @:mousemove=" colorVal = Math.floor(Math.random()*360) " :style=" {backgroundColor: 'hsl('+colorVal+',60%,60%)'} "></div>
       <p><span>backgroundColor: hsl(<strong>{{ colorVal }}</strong>, 80%, 80%)</span></p>
       <p>To understand how to set a color in CSS with 'hsl()' see <a href="/css/css_colors_hsl.asp" target="_blank">our page about this</a>.</p>
     </div>

@@ -5,11 +5,9 @@
     <p>In this example 'v-for' creates an 'li' tag with the food name for each food item in the Vue instance array.</p>
 
     <div id="example08">
-
       <ol>
         <li v-for="x in manyFoods">{{ x }}</li>
       </ol>
-
     </div>
   </div>
 </template>
@@ -40,7 +38,7 @@ export default {
     display: flex;
     flex-wrap: wrap;
   }
-  img {
+  #example08 > img {
     width: 70px;
     margin: 10px;
   }

@@ -18,6 +18,7 @@
   import T17methodsEvent from './components/T17methodsEvent.vue';
   import T18methodsTextArea from './components/T18methodsTextArea.vue';
   import T19methodsArguments from './components/T19methodsArguments.vue';
+  import T20methodsArgumentsObjects from './components/T20methodsArgumentsObjects.vue';
 </script>
 <script>
   export default {
@@ -25,7 +26,7 @@
     components : {},
     data() {
       return {
-        bgColor: "yellow"
+        bgColor: "greenyellow"
     }
    }
   }  
@@ -70,6 +71,8 @@
   <T18methodsTextArea></T18methodsTextArea>
   <h1 :style="{ backgroundColor: bgColor }">19. Methods: passing arguments </h1>
   <T19methodsArguments></T19methodsArguments>
+  <h1 :style="{ backgroundColor: bgColor }">20. Methods: passing arguments and the Event object </h1>
+  <T20methodsArgumentsObjects></T20methodsArgumentsObjects>
 </template>
 
 <style scoped>

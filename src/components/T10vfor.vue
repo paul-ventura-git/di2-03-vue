@@ -5,8 +5,8 @@
 
     <div id="app">
       <div>
-        <p v-for="(x, index) in manyFoods">
-          Index: "{{ index }}", name: "{{ x.name }}", url: "{{ x.url }}" <br>
+        <p v-for="(item, index) in manyFoods">
+          Index: "{{ index }}", name: "{{ item.name }}", url: "{{ item.url }}" <br>
         </p>
       </div>
     </div>

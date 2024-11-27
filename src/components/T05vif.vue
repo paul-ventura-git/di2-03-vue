@@ -5,7 +5,7 @@
 
   <p>Remove 'pizza' from the 'text' property inside the Vue instance, click 'Run' and see what happens.</p>
 
-  <div id="app">
+  <div id="example05">
     <div v-if="text.includes('pizza')">
       <p>The text includes the word 'pizza'</p>
       <img src="https://picsum.photos/200/100">
@@ -19,7 +19,7 @@ export default {
   components: {},
   data() {
     return {
-      text: 'I like taco, pizza, Thai beef salad, pho soup and tagine.'
+      text: 'I like taco, Thai beef salad, pho soup and tagine.'
     }
   }
 }
