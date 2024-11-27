@@ -27,6 +27,8 @@
   import T26eventModifiersImages from './components/T26eventModifiersImages.vue';
   import T27forms from './components/T27forms.vue';
   import T28vmodel from './components/T28vmodel.vue';
+  import T29vmodelFormsCheckbox from './components/T29vmodelFormsCheckbox.vue';
+  import T30vmodelForms from './components/T30vmodelForms.vue';
 </script>
 <script>
   export default {
@@ -97,6 +99,10 @@
   <T27forms></T27forms>
   <h1 :style="{ backgroundColor: bgColor }">28. "v-model:" Checkbox </h1>
   <T28vmodel></T28vmodel>
+  <h1 :style="{ backgroundColor: bgColor }">29. "v-model:" Forms with Checkbox </h1>
+  <T29vmodelFormsCheckbox></T29vmodelFormsCheckbox>
+  <h1 :style="{ backgroundColor: bgColor }">30. "v-model:" Forms with found items </h1>
+  <T30vmodelForms></T30vmodelForms>
 </template>
 
 <style scoped>
