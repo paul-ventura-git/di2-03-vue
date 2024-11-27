@@ -20,6 +20,7 @@
   import T19methodsArguments from './components/T19methodsArguments.vue';
   import T20methodsArgumentsObjects from './components/T20methodsArgumentsObjects.vue';
   import T21methodsExample from './components/T21methodsExample.vue';
+  import T22eventModifiers from './components/T22eventModifiers.vue';
 </script>
 <script>
   export default {
@@ -76,6 +77,8 @@
   <T20methodsArgumentsObjects></T20methodsArgumentsObjects>
   <h1 :style="{ backgroundColor: bgColor }">21. Methods: Larger example </h1>
   <T21methodsExample></T21methodsExample>
+  <h1 :style="{ backgroundColor: bgColor }">22. Event modifiers </h1>
+  <T22eventModifiers></T22eventModifiers>
 </template>
 
 <style scoped>
