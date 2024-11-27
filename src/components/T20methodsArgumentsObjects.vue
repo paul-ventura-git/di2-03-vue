@@ -6,7 +6,7 @@
     <div id="example20">
       <img src="../assets/img/img_tiger_square.jpeg" id="tiger" v-on:click="myMethod($event,'Hello')" width="233" height="233">
       <p>Here is the message sent with the method, and the id of the img tag:</p>
-      <p id="green">"{{ msgAndId }}"</p>
+      <p id="green20">"{{ msgAndId }}"</p>
     </div>
   </div>
 </template>
@@ -36,7 +36,7 @@ export default {
   #example20 img {
     width: 100%;
   }
-  #green {
+  #green20 {
     background-color: lightgreen;
     display: inline-block;
   }
