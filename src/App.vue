@@ -19,6 +19,7 @@
   import T18methodsTextArea from './components/T18methodsTextArea.vue';
   import T19methodsArguments from './components/T19methodsArguments.vue';
   import T20methodsArgumentsObjects from './components/T20methodsArgumentsObjects.vue';
+  import T21methodsExample from './components/T21methodsExample.vue';
 </script>
 <script>
   export default {
@@ -73,6 +74,8 @@
   <T19methodsArguments></T19methodsArguments>
   <h1 :style="{ backgroundColor: bgColor }">20. Methods: passing arguments and the Event object </h1>
   <T20methodsArgumentsObjects></T20methodsArgumentsObjects>
+  <h1 :style="{ backgroundColor: bgColor }">21. Methods: Larger example </h1>
+  <T21methodsExample></T21methodsExample>
 </template>
 
 <style scoped>
