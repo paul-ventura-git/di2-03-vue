@@ -4,7 +4,7 @@
 
     <p>The browser sets the background color with 'hsl()' based on the value of 'bgVal' in the Vue instance.</p>
 
-    <div id="app">
+    <div id="example02">
       <div v-bind:style="{ backgroundColor: isImportant ? 'lightcoral' : 'lightgray' }">Importance based on background color</div>
     </div>
   </div>
@@ -23,5 +23,9 @@
 </script>
 
 <style>
-  
+  #example02 > div {
+    width: 200px;
+    padding: 20px;
+    border: dashed black 1px;
+  }
 </style>
