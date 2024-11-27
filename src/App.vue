@@ -25,6 +25,7 @@
   import T24eventModifiersCombined from './components/T24eventModifiersCombined.vue';
   import T25eventModifiersMouseButton from './components/T25eventModifiersMouseButton.vue';
   import T26eventModifiersImages from './components/T26eventModifiersImages.vue';
+  import T27forms from './components/T27forms.vue';
 </script>
 <script>
   export default {
@@ -89,8 +90,10 @@
   <T24eventModifiersCombined></T24eventModifiersCombined>
   <h1 :style="{ backgroundColor: bgColor }">25. Event modifiers: Mouse button </h1>
   <T25eventModifiersMouseButton></T25eventModifiersMouseButton>
-  <h1 :style="{ backgroundColor: bgColor }">25. Event modifiers: Images </h1>
+  <h1 :style="{ backgroundColor: bgColor }">26. Event modifiers: Images </h1>
   <T26eventModifiersImages></T26eventModifiersImages>
+  <h1 :style="{ backgroundColor: bgColor }">27. "v-model:" Forms </h1>
+  <T27forms></T27forms>
 </template>
 
 <style scoped>
