@@ -28,8 +28,8 @@ export default {
   components : {},
   data() {
     return {
-      typeWritersInStock: false,
-      typeWriterCount: 0
+      typeWritersInStock: true,
+      typeWriterCount: 512
     }
   }
 }

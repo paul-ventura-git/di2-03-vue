@@ -19,7 +19,7 @@ export default {
   components: {},
   data() {
     return {
-      text: 'I like taco, Thai beef salad, pho soup and tagine.'
+      text: 'I like tacos, , Thai beef salad, pho soup and tagine.'
     }
   }
 }

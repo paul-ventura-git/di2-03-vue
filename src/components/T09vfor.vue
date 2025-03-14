@@ -33,7 +33,7 @@ export default {
 </script>
 <style lang="css">
   #example09 > div {
-    border: solid black 1px;
+    border: dashed black 1px;
     width: 80%;
     padding: 10px;
     display: flex;

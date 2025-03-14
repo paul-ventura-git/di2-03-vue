@@ -5,9 +5,11 @@
     <p>In this example 'v-for' creates an 'li' tag with the food name for each food item in the Vue instance array.</p>
 
     <div id="example08">
-      <ol>
-        <li v-for="x in manyFoods">{{ x }}</li>
-      </ol>
+      <div>
+        <ol>
+          <li v-for="item in manyFoods">{{ item }}</li>
+        </ol>
+      </div>
     </div>
   </div>
 </template>
@@ -32,7 +34,7 @@ export default {
 </script>
 <style lang="css">
   #example08 > div {
-    border: solid black 1px;
+    border: dashed black 1px;
     width: 20%;
     padding: 10px;
 

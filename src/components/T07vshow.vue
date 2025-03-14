@@ -3,7 +3,8 @@
     <h1>Example: v-show vs. v-if</h1>
 
     <div id="example07">
-      <p>Set the 'showDiv' data property to 'false', and run the code again. Right click this green p element, choose 'Inspect' or 'Inspect element' and you can see that the div element with v-show still exist, it is only the CSS display property that is set to 'none', and the div with v-if is destroyed.</p>
+      <p>Set the 'showDiv' data property to 'false', and run the code again. 
+        Right click this green p element, choose 'Inspect' or 'Inspect element' and you can see that the div element with v-show still exist, it is only the CSS display property that is set to 'none', and the div with v-if is destroyed.</p>
       <div v-show="showDiv">Div tag with v-show</div>
       <div v-if="showDiv">Div tag with v-if</div>
     </div>
@@ -15,7 +16,7 @@ export default {
   components: {},
   data() {
     return {
-      showDiv: true
+      showDiv: false
     }
   }
 
